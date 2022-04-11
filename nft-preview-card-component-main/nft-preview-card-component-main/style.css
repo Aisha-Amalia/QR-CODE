@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --darkest-blue: hsl(217, 54%, 11%);
+  --darker-blue: hsl(216, 50%, 16%);
+  --dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  width: 350px;
+  height: 100vh;
+  background: var(--darkest-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+}
+
+.container {
+  width: 350px;
+  margin-top: 150px;
+  background: var(--darker-blue);
+  box-shadow: 5px 5px 5px (0, 0, 0, 0, 15);
+  padding: 1.6rem;
+  border-radius: 1.25rem;
+}
+
+.container img {
+  max-width: 100%;
+  border-radius: 0.95rem;
+}
+
+.container h2 {
+  text-align: left;
+  color: var(--White);
+  font-family: Outfit;
+  font-family: 600;
+  margin-left: 5px;
+  margin-top: 10px;
+  row-gap: 15px;
+}
+
+.container p {
+  text-align: left;
+  color: var(--Soft-blue);
+  font-family: Outfit;
+  font-weight: 300;
+  margin-left: 5px;
+  margin-top: 10px;
+  row-gap: 2.5rem;
+}
+
+.numbers {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 0.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  font-family: outfit;
+}
+
+.numbers h1 {
+  color: var(--Cyan);
+  font-size: 18px;
+  align-items: baseline;
+  float: left;
+  bottom: 0;
+}
+
+.numbers p {
+  color: var(--Soft-blue);
+  font-size: 14px;
+  text-align: right;
+  bottom: 0;
+}
+
+.numbers p img {
+  color: var(--Soft-blue);
+  font-size: 14px;
+  text-align: right;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.thin-border {
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(241, 234, 234, 0.178);
+  width: 290px;
+  margin-right: 15%;
+  top: 0;
+}
+
+.base {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.2rem;
+  margin-bottom: 1.5rem;
+  bottom: 0;
+}
+
+.base img {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  margin-bottom: -5px;
+  margin-top: -20px;
+  top: 0;
+}
+
+.base h4 {
+  display: block;
+  /* margin:20px; */
+  font-family: Outfit;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: -9px;
+  margin-top: 29px;
+}
+
+.white {
+  color: var(--White);
+}
+
+.blue {
+  color: var(--Soft-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
